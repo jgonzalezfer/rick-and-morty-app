@@ -1,6 +1,7 @@
 import React, {useEffect,useState} from 'react'
 import Navbar from './components/Navbar'
 import Characters from './components/Characters'
+import Paginaction from './components/Paginaction'
 
 function App() {
   
@@ -24,7 +25,9 @@ function App() {
       <Navbar brand="Rick And Morty"/>
 
       <div className='container mt-5'>
+        <Paginaction/>
         <Characters characters={characters}></Characters>
+        <Paginaction/>
       </div>
     </>
   );
