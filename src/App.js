@@ -23,7 +23,7 @@ function App() {
     <> 
       <Navbar brand="Rick And Morty"/>
 
-      <div className='container'>
+      <div className='container mt-5'>
         <Characters characters={characters}></Characters>
       </div>
     </>
